@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CoffeeBreakTime</string>
+    <string name="order_please">Order Please.</string>
+    <string name="coffee_break_time">COFFEE BREAK TIME</string>
+    <string name="hot">HOT</string>
+    <string name="ice">ICE</string>
+    <string name="feedback_well">I love it</string>
+    <string name="feedback_good">Not bad</string>
+    <string name="feedback_bad">Should improve</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

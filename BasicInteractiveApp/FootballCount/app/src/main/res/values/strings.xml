@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FootballCount</string>
+    <string name="team_arsenal">Arsenal</string>
+    <string name="team_roma">Roma</string>
+    <string name="score">Score</string>
+    <string name="initial_point">0</string>
+    <string name="shoot">Shoot</string>
+    <string name="foul">fouls</string>
+    <string name="change_player">Change Player</string>
+    <string name="reset">Reset</string>
+</resources>

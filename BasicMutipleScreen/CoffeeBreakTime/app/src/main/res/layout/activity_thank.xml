@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/main_band"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="5dp"
+        android:text="@string/coffee_break_time"
+        android:textColor="#5D4037"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/main_band"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_band"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="     Thank you very much \n We hope to see you again. "
+        android:textColor="#BCAAA4"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

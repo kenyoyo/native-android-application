@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1887F"
+    tools:context="com.example.android.coffeebreaktime.MainActivity">
+
+    <TextView
+        android:id="@+id/main_band"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="5dp"
+        android:text="@string/coffee_break_time"
+        android:textColor="#5D4037"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/main_band"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_band"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#BCAAA4"
+        android:onClick="orderButton"
+        android:padding="10dp"
+        android:text="@string/order_please"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
